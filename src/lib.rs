@@ -7,4 +7,4 @@ fn valid(this: Opaque) -> bool {
     unsafe { back(this) }
 }
 
-rivets::initialize!();
+rivets::finalize!();
